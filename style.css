@@ -18,7 +18,7 @@ div.mega-menu-container > ul{
 
 div.mega-menu-container > ul:hover{
     background-color: #993333;
-    color: white;
+    color: cornsilk;
     cursor: pointer;
 }
 
@@ -34,14 +34,10 @@ div.mega-menu-container ul li a{
     color:inherit;
 }
 
-/*div.mega-menu-container ul li:hover{
-    color:red;
-}*/
-
 .mega-menu-hover{
     display: none;
     position: absolute;
-    background-color: #c55353;
+    background-color: #993333;
     padding: 1rem;
 }
 
@@ -49,14 +45,16 @@ div.mega-menu-container ul:hover > li:nth-child(2){
     display: flex;
 }
 
-/*#day-tours > li.mega-menu-hover > ul.first-row > li:nth-child(1) > h3{
-    color: blue !important;
-}*/
 .mega-menu-hover ul li h3{
-    color: cornsilk;;
+    color: cornsilk;
+    margin: 0;
 }
 
-.mega-menu-hover ul li a:visited{
+/*.mega-menu-hover ul li a:visited{
+    color: black;
+}*/
+
+.mega-menu-hover ul li{
     color: black;
 }
 
