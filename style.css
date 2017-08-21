@@ -47,7 +47,7 @@ div.mega-menu-container ul:hover > li:nth-child(2){
 
 .mega-menu-hover ul li h3{
     color: cornsilk;
-    margin: 0;
+    margin: 1rem 0 0 0;
 }
 
 /*.mega-menu-hover ul li a:visited{
